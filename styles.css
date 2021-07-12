@@ -1,0 +1,75 @@
+#logo {
+    width: 120px;
+}
+
+.site-header {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* navegacion */
+
+.barra {
+    background-color: orange;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.navegacion a:hove {
+    background-color: rgb(220,115,25);
+    
+    
+}
+
+.navegacion a:active {
+    background-color: rgb(255,203,101);
+    padding: 12px;
+    transition: 0,7s;
+    
+}
+
+/* contenido principal */
+
+
+.titulo {
+    color:white;
+    background-color: orange;
+    padding: 10px 10px 10px 10px;
+    
+}
+.contenedor-principal {
+    margin-top: 15px;
+    display: flex;
+    margin-right: 20px;
+}
+.caja1 {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.caja2 {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pie-pagina {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.texto {
+    font-size: 20px;
+}
+
+.links {
+    margin-right: 20px;
+}
